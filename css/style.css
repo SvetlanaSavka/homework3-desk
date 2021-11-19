@@ -52,8 +52,8 @@ body {
 /* -----LOGO----- */
 .conteiner {
   width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px;*/
   padding-left: 15px;
   padding-right: 15px;
 
@@ -185,6 +185,10 @@ body {
 }
 
 /*--------------------вНИМАНИЕ К ДЕТАЛЯМ ----------*/
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .about-text {
   width: 270px;
 }
@@ -232,7 +236,9 @@ body {
 }*/
 
 /*----------Три фотографии------*/
-
+.about-pikchers {
+  padding-bottom: 94px;
+}
 .about-photo {
   display: flex;
 }
@@ -261,7 +267,11 @@ body {
 }
 
 /*------ Наша команда---- */
-
+.about-people {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  background-color: #f5f4fa;
+}
 .about-our-comand-people {
   font-weight: 500;
   font-size: 16px;
