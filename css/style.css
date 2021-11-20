@@ -72,7 +72,6 @@ body {
 }
 .header-list {
   display: flex;
-  margin-right: 215px;
 }
 .logo {
   font-family: Raleway, cursive;
@@ -80,7 +79,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--first-header-text-color);
-  margin-left: 215px;
 }
 .logo-two {
   font-family: Raleway, cursive;
@@ -202,7 +200,6 @@ body {
 .about-list {
   outline: 1 px solid tomato;
   display: flex;
-  margin-left: -30px;
 }
 .about-pre-text {
   ont-weight: bold;
@@ -213,16 +210,14 @@ body {
   color: var(--second-text-color);
   margin-bottom: 10px;
 }
-.about-item:not(:last-child) {
-  margin-right: 30px;
+/*.about-item:not(:last-child) {
+  margin-right: 30px;*/
 }
 .about-iteam-comand {
   display: flex;
   margin: 0;
 }
-.about-comand {
-  background-color: #f5f4fa;
-}
+
 .about-iteam-comand > .about-comand {
   /*outline: 1 px solid tomato;
   flex-basis: calc(100% / 3- 20px);*/
@@ -230,10 +225,6 @@ body {
   margin-top: 50px;
   background-color: var(--main-title-color);
 }
-
-/*.about-our-comand-profession {
-  margin-top: 1000px;
-}*/
 
 /*----------Три фотографии------*/
 .about-pikchers {
@@ -245,9 +236,6 @@ body {
 .about-after:not(:last-child) {
   margin-right: 30px;
 }
-.about-after {
-  margin-top: 50px;
-}
 
 .about-text {
   font-size: 14px;
@@ -255,6 +243,23 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-text-color);
   max-width: 270px;
+}
+
+/*------ Наша команда---- */
+.about-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-iteam-comand {
+  display: flex;
+  margin: 0;
+}
+
+.about-iteam-comand > .about-comand {
+  /*outline: 1 px solid tomato;
+  flex-basis: calc(100% / 3- 20px);*/
+  margin-left: 30px;
+  margin-top: 0px;
+  background-color: var(--main-title-color);
 }
 .text {
   font-weight: bold;
@@ -264,9 +269,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   justify-content: center;
+  margin-bottom: 50px;
 }
 
-/*------ Наша команда---- */
 .about-people {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -279,6 +284,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  margin-bottom: 10px;
 }
 .about-our-comand-profession {
   ont-size: 16px;
@@ -308,7 +314,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-  margin-left: 215px;
   margin-top: 20px;
 }
 
@@ -335,9 +340,12 @@ body {
 /* ------ КНОПКИ --------*/
 .btn {
   display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.button {
   padding-top: 94px;
   padding-bottom: 94px;
-  justify-content: center;
 }
 .button-nav {
   font-family: inherit;
