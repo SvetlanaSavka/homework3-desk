@@ -52,17 +52,14 @@ body {
 /* -----LOGO----- */
 .conteiner {
   width: 1200px;
-  /* padding-top: 94px;
-  padding-bottom: 94px;*/
   padding-left: 15px;
   padding-right: 15px;
-
   margin: 0 auto;
 }
 .conteiner-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
 }
 
 .header {
@@ -72,13 +69,17 @@ body {
 }
 .header-list {
   display: flex;
+  margin-left: auto;
+  align-items: center;
 }
+
 .logo {
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--first-header-text-color);
+  
 }
 .logo-two {
   font-family: Raleway, cursive;
@@ -86,6 +87,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  margin-right: 93px;
+  
 }
 .logo-three {
   font-family: Raleway, cursive;
@@ -100,7 +103,7 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .header-item .header-link {
@@ -112,6 +115,7 @@ body {
   color: var(--first-header-text-color);
 }
 
+  
 .header-mailto {
   font-weight: 500;
   font-size: 14px;
@@ -119,6 +123,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--third-text-color);
   margin-right: 50px;
+ /* margin-left: 331px;*/
 }
 .header-mailto:hover,
 .header-mailto:focus {
@@ -141,9 +146,18 @@ body {
 
 .hero-right {
   background-color: var(--second-title-color);
+   /*background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4) 
+  ),
+    url(../img/offic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;*/
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 
 .hero-title {
   font-weight: 900;
@@ -388,7 +402,6 @@ body {
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--main-title-color);
@@ -398,7 +411,7 @@ body {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-
+  
   margin-left: -20px;
   margin-top: -20px;
 }
